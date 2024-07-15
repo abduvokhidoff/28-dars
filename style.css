@@ -27,7 +27,10 @@ header{
     gap: 40px;
     list-style-type: none;
 }
-.description>ul>li{
+.description>ul>li>a{
+    text-decoration: none;
+}
+.description>ul>li>a{
     font-family: Roboto;
 font-size: 12px;
 font-weight: 700;
@@ -36,7 +39,7 @@ letter-spacing: 1px;
 color: #333333;
 transition: all 0.5s;
 }
-.description>ul>li:hover{
+.description>ul>li>a:hover{
     transform: scale(1.1);
     transition: all 0.5s;
 }
@@ -187,7 +190,7 @@ width: 400px;
     gap: 40px;
     list-style-type: none;
 }
-.footer-description>ul>li{
+.footer-description>ul>li>a{
     font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
@@ -195,6 +198,7 @@ line-height: 18.75px;
 letter-spacing: 1px;
 text-align: center;
 color: #333333;
+text-decoration: none;
 }
 .footer-img{
     display: flex;
